@@ -45,6 +45,17 @@ Brands: Audi, BMW, Cadillac, Chevrolet, Ford
 
 ## 3 шаг
 
+Выведите модель, минимально дешевого и максимально дорогого автомобиля, которая встречается в данных переданного файла. В данном случае речь идет о цене.
+
+```bash
+bin/cars.js __fixtures__/cars1.csv
+Count: 20
+Brands: Audi, BMW, Cadillac, Chevrolet, Ford
+Cars price: Min price: 17999, Max price: 91999
+```
+
+## 4 шаг
+
 Выведите самое большое количество продаж по Европе.
 
 ```bash
@@ -53,17 +64,6 @@ Count: 20
 Brands: Audi, BMW, Cadillac, Chevrolet, Ford
 Cars price: Min price: 17999, Max price: 91999
 Max Europe sale: 7000
-```
-
-## 4 шаг
-
-Выведите модель, минимально дешевого и максимально дорогого автомобиля, которая встречается в данных переданного файла. В данном случае речь идет о цене.
-
-```bash
-bin/cars.js __fixtures__/cars1.csv
-Count: 20
-Brands: Audi, BMW, Cadillac, Chevrolet, Ford
-Cars price: Min price: 17999, Max price: 91999
 ```
 
 ## 5 шаг
